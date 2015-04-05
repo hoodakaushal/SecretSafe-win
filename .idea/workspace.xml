@@ -7,10 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Controller.java" afterPath="$PROJECT_DIR$/src/main/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Encrypt.java" afterPath="$PROJECT_DIR$/src/main/Encrypt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SecretSafe-win/crypto/Shamir.class" afterPath="$PROJECT_DIR$/out/production/SecretSafe-win/crypto/Shamir.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crypto/Shamir.java" afterPath="$PROJECT_DIR$/src/crypto/Shamir.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/userdata" afterPath="$PROJECT_DIR$/userdata" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -82,20 +80,28 @@
       <file leaf-file-name="Shamir.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/crypto/Shamir.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.50509167" vertical-offset="3016" max-vertical-offset="4741">
-              <caret line="192" column="47" selection-start-line="192" selection-start-column="47" selection-end-line="192" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3757" max-vertical-offset="6732">
+              <caret line="221" column="32" selection-start-line="221" selection-start-column="32" selection-end-line="221" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#Shamir#0" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
-                <element signature="e#2262#2312#0" expanded="true" />
+                <element signature="e#2343#2393#0" expanded="true" />
                 <element signature="docComment;method#fileSplit#0;class#Shamir#0" expanded="true" />
-                <element signature="e#5359#5442#0" expanded="true" />
-                <element signature="e#5920#6050#0" expanded="true" />
-                <element signature="e#6454#6455#0" expanded="true" />
-                <element signature="e#8690#8728#0" expanded="true" />
-                <element signature="e#9622#9626#0" expanded="true" />
+                <element signature="e#6191#6321#0" expanded="true" />
+                <element signature="docComment;method#encryptAndWrite#0;class#Shamir#0" expanded="true" />
+                <element signature="e#9457#9498#0" expanded="true" />
+                <element signature="e#12672#12739#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecretShare.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/libs/secretshare-1.4.1-sources.jar!/com/tiemens/secretshare/engine/SecretShare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="4046" max-vertical-offset="10030">
+              <caret line="386" column="0" selection-start-line="386" selection-start-column="0" selection-end-line="386" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,8 +109,8 @@
       <file leaf-file-name="MainSplit.java" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/libs/secretshare-1.4.1-sources.jar!/com/tiemens/secretshare/main/cli/MainSplit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3380" max-vertical-offset="7575">
-              <caret line="263" column="63" selection-start-line="263" selection-start-column="63" selection-end-line="263" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="6528" max-vertical-offset="7106">
+              <caret line="426" column="0" selection-start-line="426" selection-start-column="0" selection-end-line="426" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,7 +119,7 @@
       <file leaf-file-name="BigIntUtilities.java" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/libs/secretshare-1.4.1-sources.jar!/com/tiemens/secretshare/math/BigIntUtilities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="235" max-vertical-offset="2152">
+            <state vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1683">
               <caret line="62" column="36" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="36" />
               <folding>
                 <element signature="docComment;method#createBigInteger#0;class#Human#0;class#BigIntUtilities#0" expanded="true" />
@@ -125,7 +131,7 @@
       <file leaf-file-name="Encrypt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Encrypt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1761">
+            <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1292">
               <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="method#shamirCrypt#0;class#Encrypt#0" expanded="false" />
@@ -137,7 +143,7 @@
       <file leaf-file-name="sample.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/sample.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9285715" vertical-offset="239" max-vertical-offset="2402">
+            <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1955">
               <caret line="27" column="25" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="25" />
               <folding>
                 <element signature="n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
@@ -179,8 +185,8 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3057" max-vertical-offset="6198">
-              <caret line="190" column="0" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3196" max-vertical-offset="5695">
+              <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;method#initialize#0;class#Controller#0" expanded="true" />
@@ -209,7 +215,7 @@
       <file leaf-file-name="Decrypt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Decrypt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1319">
+            <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="833">
               <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
               <folding />
             </state>
@@ -299,8 +305,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -389,6 +393,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -620,34 +626,34 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1608" height="864" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.4996192" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26145554" sideWeight="0.48286366" order="2" side_tool="true" content_ui="tabs" x="22" y="306" width="1556" height="244" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969153" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26145554" sideWeight="0.51713634" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26145554" sideWeight="0.4691546" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15616967" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15616967" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14781491" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.4996192" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26145554" sideWeight="0.5308454" order="2" side_tool="true" content_ui="tabs" x="22" y="306" width="1556" height="244" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969153" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -773,12 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="510">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#795#840#0" expanded="true" />
-            <element signature="e#1702#1710#0" expanded="false" />
-            <element signature="e#1794#1795#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -854,12 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="459">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#795#840#0" expanded="true" />
-            <element signature="e#1702#1710#0" expanded="false" />
-            <element signature="e#1794#1795#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1076,14 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="103" max-vertical-offset="1013">
           <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-          <folding>
-            <element signature="docComment;class#XOR#0" expanded="false" />
-            <element signature="method#main#0;class#XOR#0" expanded="false" />
-            <element signature="method#encrypt#0;class#XOR#0" expanded="false" />
-            <element signature="method#toBinary#0;class#XOR#0" expanded="false" />
-            <element signature="method#keyGen#0;class#XOR#0" expanded="false" />
-            <element signature="method#doXOR#0;class#XOR#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1099,7 +1085,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="2601">
           <caret line="56" column="23" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1135,13 +1120,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2227" max-vertical-offset="3179">
           <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#589#596#0" expanded="false" />
-            <element signature="e#1108#1132#0" expanded="false" />
-            <element signature="e#1223#1281#0" expanded="false" />
-            <element signature="e#2393#2433#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1149,13 +1127,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.52307695" vertical-offset="408" max-vertical-offset="1931">
           <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/sample.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9285715" vertical-offset="239" max-vertical-offset="2320">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1955">
           <caret line="27" column="25" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="25" />
           <folding>
             <element signature="n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
@@ -1205,7 +1182,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3319149" vertical-offset="5403" max-vertical-offset="9735">
           <caret line="652" column="0" selection-start-line="652" selection-start-column="0" selection-end-line="652" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1213,10 +1189,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="708">
           <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#UserData#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1224,17 +1196,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
           <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/secretshare-1.4.1-sources.jar!/com/tiemens/secretshare/engine/SecretShare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43076923" vertical-offset="4094" max-vertical-offset="10771">
-          <caret line="386" column="0" selection-start-line="386" selection-start-column="0" selection-end-line="386" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;method#createAppropriateModulusForSecret#0;class#SecretShare#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1242,17 +1203,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.3596154" vertical-offset="374" max-vertical-offset="1727">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#795#840#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/secretshare-1.4.1-sources.jar!/com/tiemens/secretshare/main/cli/MainSplit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3380" max-vertical-offset="7575">
-          <caret line="263" column="63" selection-start-line="263" selection-start-column="63" selection-end-line="263" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1266,10 +1216,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="21893" max-vertical-offset="33857">
+          <caret line="3518" column="0" selection-start-line="3518" selection-start-column="0" selection-end-line="3518" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/secretshare-1.4.1-sources.jar!/com/tiemens/secretshare/main/cli/MainSplit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6355" max-vertical-offset="7575">
+          <caret line="426" column="0" selection-start-line="426" selection-start-column="0" selection-end-line="426" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Encrypt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1761">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="method#shamirCrypt#0;class#Encrypt#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/secretshare-1.4.1-sources.jar!/com/tiemens/secretshare/engine/SecretShare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3873" max-vertical-offset="10499">
+          <caret line="386" column="0" selection-start-line="386" selection-start-column="0" selection-end-line="386" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3057" max-vertical-offset="6198">
-          <caret line="190" column="0" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+          <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#initialize#0;class#Controller#0" expanded="true" />
@@ -1294,39 +1278,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Encrypt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1761">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="method#shamirCrypt#0;class#Encrypt#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="21893" max-vertical-offset="33857">
-          <caret line="3518" column="0" selection-start-line="3518" selection-start-column="0" selection-end-line="3518" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/crypto/Shamir.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50509167" vertical-offset="3016" max-vertical-offset="4741">
-          <caret line="192" column="47" selection-start-line="192" selection-start-column="47" selection-end-line="192" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3757" max-vertical-offset="6754">
+          <caret line="221" column="32" selection-start-line="221" selection-start-column="32" selection-end-line="221" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#Shamir#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#2262#2312#0" expanded="true" />
+            <element signature="e#2343#2393#0" expanded="true" />
             <element signature="docComment;method#fileSplit#0;class#Shamir#0" expanded="true" />
-            <element signature="e#5359#5442#0" expanded="true" />
-            <element signature="e#5920#6050#0" expanded="true" />
-            <element signature="e#6454#6455#0" expanded="true" />
-            <element signature="e#8690#8728#0" expanded="true" />
-            <element signature="e#9622#9626#0" expanded="true" />
+            <element signature="e#6191#6321#0" expanded="true" />
+            <element signature="docComment;method#encryptAndWrite#0;class#Shamir#0" expanded="true" />
+            <element signature="e#9457#9498#0" expanded="true" />
+            <element signature="e#12672#12739#0" expanded="true" />
           </folding>
         </state>
       </provider>
