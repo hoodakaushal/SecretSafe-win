@@ -5,6 +5,7 @@ import crypto.XOR;
 import email.Email;
 import email.SendMail;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.UUID;
@@ -25,10 +26,14 @@ public class Encrypt {
 
     public static final String SECRETSAFE = "SecretSafe";
 
-    public static int encrypt(String message, String fileName, String tags, UserData userData) {
+    public static int encrypt(String message, String filePath, String tags, UserData userData) throws IOException {
 
         UUID uuid = UUID.randomUUID();
         String subject = SECRETSAFE.concat(" ").concat(String.valueOf(uuid)).concat(" ").concat(tags);
+
+        Shamir.fileSplit(filePath, userData.n, userData.k);
+        if(0==0)
+            return 0;
 
         //Simple XOR encryption.
         if (userData.mode == 0) {

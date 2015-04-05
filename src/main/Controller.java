@@ -18,6 +18,7 @@ import main.Main;
 
 import java.awt.event.ActionEvent;
 import java.io.File;
+import java.io.IOException;
 import java.lang.reflect.Array;
 import java.net.URL;
 import java.util.*;
@@ -175,7 +176,7 @@ public class Controller implements Initializable {
             @Override
             public void handle(javafx.event.ActionEvent event) {
                 String message = secretsTextAreaET.getText();
-                String fileName = attachFileTextFieldET.getText();
+                String filePath = attachFileTextFieldET.getText();
 
                 String tags = tagsTextFieldET.getText();
                 System.out.println("Doing stuff!");
@@ -184,7 +185,18 @@ public class Controller implements Initializable {
 
 
                 Main.userData.fromPassword = passwordBoxET.getText();
-                main.Encrypt.encrypt(message, fileName, tags, Main.userData);
+                try {
+                    long startTime = System.currentTimeMillis();
+
+                    Encrypt.encrypt(message, filePath, tags, Main.userData);
+
+                    long endTime = System.currentTimeMillis();
+
+                    System.out.println("That took " + (endTime - startTime)/1000.0 + " seconds");
+
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
 
                 //TODO
                 //Call some function to do the encryption and mailing.
@@ -202,8 +214,9 @@ public class Controller implements Initializable {
 
                 FileChooser fileChooser = new FileChooser();
                 File file = fileChooser.showOpenDialog(myStage);
-                attachFileTextFieldET.setText(file.getAbsolutePath());
-
+                if(file != null) {
+                    attachFileTextFieldET.setText(file.getAbsolutePath());
+                }
             }
         });
 

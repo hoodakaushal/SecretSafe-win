@@ -6,7 +6,13 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Controller.java" afterPath="$PROJECT_DIR$/src/main/Controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Encrypt.java" afterPath="$PROJECT_DIR$/src/main/Encrypt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crypto/Shamir.java" afterPath="$PROJECT_DIR$/src/crypto/Shamir.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/userdata" afterPath="$PROJECT_DIR$/userdata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,6 +24,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SecretSafe-win$Main.coverage" NAME="Main Coverage Results" MODIFIED="1428136379938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>gui.*</FILTER>
+    </SUITE>
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -68,15 +79,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Shamir.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Shamir.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/crypto/Shamir.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1165" max-vertical-offset="1917">
-              <caret line="77" column="73" selection-start-line="77" selection-start-column="73" selection-end-line="77" selection-end-column="73" />
+            <state vertical-scroll-proportion="0.50509167" vertical-offset="3016" max-vertical-offset="4741">
+              <caret line="192" column="47" selection-start-line="192" selection-start-column="47" selection-end-line="192" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#Shamir#0" expanded="true" />
-                <element signature="e#1746#1796#0" expanded="true" />
+                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#2262#2312#0" expanded="true" />
+                <element signature="docComment;method#fileSplit#0;class#Shamir#0" expanded="true" />
+                <element signature="e#5359#5442#0" expanded="true" />
+                <element signature="e#5920#6050#0" expanded="true" />
+                <element signature="e#6454#6455#0" expanded="true" />
+                <element signature="e#8690#8728#0" expanded="true" />
+                <element signature="e#9622#9626#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainSplit.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/libs/secretshare-1.4.1-sources.jar!/com/tiemens/secretshare/main/cli/MainSplit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3380" max-vertical-offset="7575">
+              <caret line="263" column="63" selection-start-line="263" selection-start-column="63" selection-end-line="263" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BigIntUtilities.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/libs/secretshare-1.4.1-sources.jar!/com/tiemens/secretshare/math/BigIntUtilities.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="235" max-vertical-offset="2152">
+              <caret line="62" column="36" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="36" />
+              <folding>
+                <element signature="docComment;method#createBigInteger#0;class#Human#0;class#BigIntUtilities#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,8 +125,8 @@
       <file leaf-file-name="Encrypt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Encrypt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="1693">
-              <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1761">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="method#shamirCrypt#0;class#Encrypt#0" expanded="false" />
               </folding>
@@ -94,45 +134,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecretShare.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/libs/secretshare-1.4.1-sources.jar!/com/tiemens/secretshare/engine/SecretShare.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5505" max-vertical-offset="11128">
-              <caret line="71" column="6" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
-              <folding>
-                <element signature="docComment;class#SecretShare#0" expanded="true" />
-                <element signature="e#1980#2033#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/libs/secretshare-1.4.1-sources.jar!/com/tiemens/secretshare/main/cli/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1931">
-              <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainSplit.java" pinned="false" current-in-tab="true">
-        <entry file="jar://$PROJECT_DIR$/libs/secretshare-1.4.1-sources.jar!/com/tiemens/secretshare/main/cli/MainSplit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6269231" vertical-offset="3278" max-vertical-offset="7575">
-              <caret line="254" column="17" selection-start-line="254" selection-start-column="17" selection-end-line="254" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="sample.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/sample.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9285715" vertical-offset="239" max-vertical-offset="2320">
+            <state vertical-scroll-proportion="-3.9285715" vertical-offset="239" max-vertical-offset="2402">
               <caret line="27" column="25" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="25" />
-              <folding />
+              <folding>
+                <element signature="n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#children#0;n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#HBox#1;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#children#0;n#HBox#1;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#Button#0;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#VBox.margin#0;n#Button#0;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#content#0;n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#VBox#0;n#content#0;n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#children#0;n#VBox#0;n#content#0;n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#children#0;n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#VBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#children#0;n#VBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#children#0;n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#RadioButton#0;n#children#0;n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#toggleGroup#0;n#RadioButton#0;n#children#0;n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#HBox#1;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#children#0;n#HBox#1;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#Tab#3;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#content#0;n#Tab#3;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#VBox#0;n#content#0;n#Tab#3;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+                <element signature="n#children#0;n#VBox#0;n#content#0;n#Tab#3;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder">
@@ -143,36 +179,39 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2880" max-vertical-offset="5776">
-              <caret line="186" column="32" selection-start-line="186" selection-start-column="32" selection-end-line="186" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3057" max-vertical-offset="6198">
+              <caret line="190" column="0" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;method#initialize#0;class#Controller#0" expanded="true" />
-                <element signature="e#3249#4117#0" expanded="true" />
-                <element signature="e#3876#3882#0" expanded="true" />
-                <element signature="e#4116#4117#0" expanded="true" />
-                <element signature="e#4160#4700#0" expanded="true" />
-                <element signature="e#4699#4700#0" expanded="true" />
-                <element signature="e#4829#5056#0" expanded="true" />
-                <element signature="e#5055#5056#0" expanded="true" />
-                <element signature="e#5376#5993#0" expanded="true" />
-                <element signature="e#5992#5993#0" expanded="true" />
-                <element signature="e#6752#6799#0" expanded="true" />
-                <element signature="e#7576#7583#0" expanded="true" />
+                <element signature="e#3277#4497#0" expanded="true" />
+                <element signature="e#4256#4262#0" expanded="true" />
+                <element signature="e#4496#4497#0" expanded="true" />
+                <element signature="e#4540#5136#0" expanded="true" />
+                <element signature="e#5135#5136#0" expanded="true" />
+                <element signature="e#5265#5492#0" expanded="true" />
+                <element signature="e#5491#5492#0" expanded="true" />
+                <element signature="e#5812#6429#0" expanded="true" />
+                <element signature="e#6428#6429#0" expanded="true" />
+                <element signature="e#6471#7428#0" expanded="true" />
+                <element signature="e#7188#7235#0" expanded="true" />
+                <element signature="e#7427#7428#0" expanded="true" />
+                <element signature="e#7468#8703#0" expanded="true" />
+                <element signature="e#8012#8019#0" expanded="true" />
+                <element signature="e#8702#8703#0" expanded="true" />
+                <element signature="e#8809#9759#0" expanded="true" />
+                <element signature="e#9758#9759#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+      <file leaf-file-name="Decrypt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Decrypt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1679">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="e#795#840#0" expanded="true" />
-                <element signature="e#1794#1795#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1319">
+              <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -183,6 +222,9 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -210,14 +252,15 @@
         <option value="$PROJECT_DIR$/src/previous/Encrypt.java" />
         <option value="$PROJECT_DIR$/src/gui/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/UserData.java" />
-        <option value="$PROJECT_DIR$/userdata" />
         <option value="$PROJECT_DIR$/src/email/ReadMail.java" />
         <option value="$PROJECT_DIR$/src/main/Decrypt.java" />
-        <option value="$PROJECT_DIR$/src/crypto/Shamir.java" />
         <option value="$PROJECT_DIR$/src/main/sample.fxml" />
         <option value="$PROJECT_DIR$/src/main/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/Encrypt.java" />
+        <option value="$PROJECT_DIR$/userdata" />
+        <option value="$PROJECT_DIR$/test.java" />
+        <option value="$PROJECT_DIR$/src/main/Controller.java" />
+        <option value="$PROJECT_DIR$/src/crypto/Shamir.java" />
       </list>
     </option>
   </component>
@@ -289,10 +332,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="previous" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -309,20 +348,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SecretSafe-win" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SecretSafe-win" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -362,160 +387,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SecretSafe-win" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SecretSafe-win" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="secretshare-1.4.1-sources.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SecretSafe-win" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SecretSafe-win" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="secretshare-1.4.1.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SecretSafe-win" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SecretSafe-win" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="secretshare-1.4.1.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="secretshare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SecretSafe-win" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SecretSafe-win" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="secretshare-1.4.1.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="secretshare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SecretSafe-win" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SecretSafe-win" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="secretshare-1.4.1.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="secretshare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SecretSafe-win" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SecretSafe-win" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="secretshare-1.4.1.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="secretshare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="engine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SecretSafe-win" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SecretSafe-win" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -535,7 +406,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/mail.jar!/" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="true" />
-    <property name="options.lastSelected" value="editor.preferences.folding" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -710,7 +581,9 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="SecretSafe-win" />
       <envs />
+      <RunnerSettings RunnerId="Cover" />
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Cover" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -760,10 +633,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26145554" sideWeight="0.48286366" order="2" side_tool="true" content_ui="tabs" x="22" y="306" width="1556" height="244" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26145554" sideWeight="0.51713634" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969153" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26145554" sideWeight="0.51713634" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15616967" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14781491" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -820,38 +694,40 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/libs/secretshare-1.4.1-sources.jar!/com/tiemens/secretshare/exceptions/SecretShareException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="1615">
-          <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="442">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#795#840#0" expanded="true" />
-            <element signature="e#1702#1710#0" expanded="false" />
-            <element signature="e#1794#1795#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/previous/a.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="578">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/sample.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#HBox#1;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#HBox#1;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#Button#0;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#VBox.margin#0;n#Button#0;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#content#0;n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#VBox#0;n#content#0;n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#VBox#0;n#content#0;n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#VBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#VBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#RadioButton#0;n#children#0;n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#toggleGroup#0;n#RadioButton#0;n#children#0;n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#HBox#1;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#HBox#1;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#Tab#3;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#content#0;n#Tab#3;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#VBox#0;n#content#0;n#Tab#3;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#VBox#0;n#content#0;n#Tab#3;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -872,17 +748,23 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#initialize#0;class#Controller#0" expanded="true" />
-            <element signature="e#3249#4117#0" expanded="true" />
-            <element signature="e#3876#3882#0" expanded="true" />
-            <element signature="e#4116#4117#0" expanded="true" />
-            <element signature="e#4160#4700#0" expanded="true" />
-            <element signature="e#4699#4700#0" expanded="true" />
-            <element signature="e#4829#5056#0" expanded="true" />
-            <element signature="e#5055#5056#0" expanded="true" />
-            <element signature="e#5376#5993#0" expanded="true" />
-            <element signature="e#5992#5993#0" expanded="true" />
-            <element signature="e#6752#6799#0" expanded="true" />
-            <element signature="e#7576#7583#0" expanded="true" />
+            <element signature="e#3277#4497#0" expanded="true" />
+            <element signature="e#4256#4262#0" expanded="true" />
+            <element signature="e#4496#4497#0" expanded="true" />
+            <element signature="e#4540#5136#0" expanded="true" />
+            <element signature="e#5135#5136#0" expanded="true" />
+            <element signature="e#5265#5492#0" expanded="true" />
+            <element signature="e#5491#5492#0" expanded="true" />
+            <element signature="e#5812#6429#0" expanded="true" />
+            <element signature="e#6428#6429#0" expanded="true" />
+            <element signature="e#6471#7428#0" expanded="true" />
+            <element signature="e#7188#7235#0" expanded="true" />
+            <element signature="e#7427#7428#0" expanded="true" />
+            <element signature="e#7468#8703#0" expanded="true" />
+            <element signature="e#8012#8019#0" expanded="true" />
+            <element signature="e#8702#8703#0" expanded="true" />
+            <element signature="e#8809#9759#0" expanded="true" />
+            <element signature="e#9758#9759#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -907,17 +789,23 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#initialize#0;class#Controller#0" expanded="true" />
-            <element signature="e#3249#4117#0" expanded="true" />
-            <element signature="e#3876#3882#0" expanded="true" />
-            <element signature="e#4116#4117#0" expanded="true" />
-            <element signature="e#4160#4700#0" expanded="true" />
-            <element signature="e#4699#4700#0" expanded="true" />
-            <element signature="e#4829#5056#0" expanded="true" />
-            <element signature="e#5055#5056#0" expanded="true" />
-            <element signature="e#5376#5993#0" expanded="true" />
-            <element signature="e#5992#5993#0" expanded="true" />
-            <element signature="e#6752#6799#0" expanded="true" />
-            <element signature="e#7576#7583#0" expanded="true" />
+            <element signature="e#3277#4497#0" expanded="true" />
+            <element signature="e#4256#4262#0" expanded="true" />
+            <element signature="e#4496#4497#0" expanded="true" />
+            <element signature="e#4540#5136#0" expanded="true" />
+            <element signature="e#5135#5136#0" expanded="true" />
+            <element signature="e#5265#5492#0" expanded="true" />
+            <element signature="e#5491#5492#0" expanded="true" />
+            <element signature="e#5812#6429#0" expanded="true" />
+            <element signature="e#6428#6429#0" expanded="true" />
+            <element signature="e#6471#7428#0" expanded="true" />
+            <element signature="e#7188#7235#0" expanded="true" />
+            <element signature="e#7427#7428#0" expanded="true" />
+            <element signature="e#7468#8703#0" expanded="true" />
+            <element signature="e#8012#8019#0" expanded="true" />
+            <element signature="e#8702#8703#0" expanded="true" />
+            <element signature="e#8809#9759#0" expanded="true" />
+            <element signature="e#9758#9759#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -926,7 +814,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
           <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
+          <folding>
+            <element signature="n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#HBox#1;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#HBox#1;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#Button#0;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#VBox.margin#0;n#Button#0;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#content#0;n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#VBox#0;n#content#0;n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#VBox#0;n#content#0;n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#VBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#VBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#RadioButton#0;n#children#0;n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#toggleGroup#0;n#RadioButton#0;n#children#0;n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#HBox#1;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#HBox#1;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#Tab#3;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#content#0;n#Tab#3;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#VBox#0;n#content#0;n#Tab#3;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#VBox#0;n#content#0;n#Tab#3;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -953,17 +870,23 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#initialize#0;class#Controller#0" expanded="true" />
-            <element signature="e#3249#4117#0" expanded="true" />
-            <element signature="e#3876#3882#0" expanded="true" />
-            <element signature="e#4116#4117#0" expanded="true" />
-            <element signature="e#4160#4700#0" expanded="true" />
-            <element signature="e#4699#4700#0" expanded="true" />
-            <element signature="e#4829#5056#0" expanded="true" />
-            <element signature="e#5055#5056#0" expanded="true" />
-            <element signature="e#5376#5993#0" expanded="true" />
-            <element signature="e#5992#5993#0" expanded="true" />
-            <element signature="e#6752#6799#0" expanded="true" />
-            <element signature="e#7576#7583#0" expanded="true" />
+            <element signature="e#3277#4497#0" expanded="true" />
+            <element signature="e#4256#4262#0" expanded="true" />
+            <element signature="e#4496#4497#0" expanded="true" />
+            <element signature="e#4540#5136#0" expanded="true" />
+            <element signature="e#5135#5136#0" expanded="true" />
+            <element signature="e#5265#5492#0" expanded="true" />
+            <element signature="e#5491#5492#0" expanded="true" />
+            <element signature="e#5812#6429#0" expanded="true" />
+            <element signature="e#6428#6429#0" expanded="true" />
+            <element signature="e#6471#7428#0" expanded="true" />
+            <element signature="e#7188#7235#0" expanded="true" />
+            <element signature="e#7427#7428#0" expanded="true" />
+            <element signature="e#7468#8703#0" expanded="true" />
+            <element signature="e#8012#8019#0" expanded="true" />
+            <element signature="e#8702#8703#0" expanded="true" />
+            <element signature="e#8809#9759#0" expanded="true" />
+            <element signature="e#9758#9759#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -972,7 +895,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
           <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
+          <folding>
+            <element signature="n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#HBox#1;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#HBox#1;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#Button#0;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#VBox.margin#0;n#Button#0;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#content#0;n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#VBox#0;n#content#0;n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#VBox#0;n#content#0;n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#VBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#VBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#RadioButton#0;n#children#0;n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#toggleGroup#0;n#RadioButton#0;n#children#0;n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#HBox#1;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#HBox#1;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#Tab#3;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#content#0;n#Tab#3;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#VBox#0;n#content#0;n#Tab#3;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#VBox#0;n#content#0;n#Tab#3;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -1113,17 +1065,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/UserData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32692307" vertical-offset="0" max-vertical-offset="826">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#274#282#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/libs/secretshare-1.4.1-sources.jar!/com/tiemens/secretshare/main/cli/MainCombine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3326923" vertical-offset="82" max-vertical-offset="3461">
@@ -1143,14 +1084,6 @@
             <element signature="method#keyGen#0;class#XOR#0" expanded="false" />
             <element signature="method#doXOR#0;class#XOR#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userdata">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="605">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1198,17 +1131,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Decrypt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1405">
-          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;class#Decrypt#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/email/ReadMail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2227" max-vertical-offset="3179">
@@ -1223,15 +1145,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crypto/Shamir.java">
+    <entry file="jar://$PROJECT_DIR$/libs/secretshare-1.4.1-sources.jar!/com/tiemens/secretshare/main/cli/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1034" max-vertical-offset="1915">
-          <caret line="77" column="73" selection-start-line="77" selection-start-column="73" selection-end-line="77" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#Shamir#0" expanded="true" />
-            <element signature="e#1746#1796#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.52307695" vertical-offset="408" max-vertical-offset="1931">
+          <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1239,80 +1157,177 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.9285715" vertical-offset="239" max-vertical-offset="2320">
           <caret line="27" column="25" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="25" />
-          <folding />
+          <folding>
+            <element signature="n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#HBox#1;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#HBox#1;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#Button#0;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#VBox.margin#0;n#Button#0;n#children#0;n#VBox#0;n#content#0;n#Tab#0;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#content#0;n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#VBox#0;n#content#0;n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#VBox#0;n#content#0;n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#1;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#VBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#VBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#RadioButton#0;n#children#0;n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#toggleGroup#0;n#RadioButton#0;n#children#0;n#HBox#0;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#HBox#1;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#HBox#1;n#children#0;n#VBox#0;n#content#0;n#Tab#2;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#Tab#3;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#content#0;n#Tab#3;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#VBox#0;n#content#0;n#Tab#3;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+            <element signature="n#children#0;n#VBox#0;n#content#0;n#Tab#3;n#tabs#0;n#TabPane#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Decrypt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1319">
+          <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3319149" vertical-offset="5403" max-vertical-offset="9735">
+          <caret line="652" column="0" selection-start-line="652" selection-start-column="0" selection-end-line="652" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="708">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#UserData#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userdata">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/secretshare-1.4.1-sources.jar!/com/tiemens/secretshare/engine/SecretShare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43076923" vertical-offset="4094" max-vertical-offset="10771">
+          <caret line="386" column="0" selection-start-line="386" selection-start-column="0" selection-end-line="386" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;method#createAppropriateModulusForSecret#0;class#SecretShare#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1679">
+        <state vertical-scroll-proportion="-0.3596154" vertical-offset="374" max-vertical-offset="1727">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="e#795#840#0" expanded="true" />
-            <element signature="e#1794#1795#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/secretshare-1.4.1-sources.jar!/com/tiemens/secretshare/main/cli/MainSplit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3380" max-vertical-offset="7575">
+          <caret line="263" column="63" selection-start-line="263" selection-start-column="63" selection-end-line="263" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/secretshare-1.4.1-sources.jar!/com/tiemens/secretshare/math/BigIntUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="235" max-vertical-offset="2152">
+          <caret line="62" column="36" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="36" />
+          <folding>
+            <element signature="docComment;method#createBigInteger#0;class#Human#0;class#BigIntUtilities#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2880" max-vertical-offset="5776">
-          <caret line="186" column="32" selection-start-line="186" selection-start-column="32" selection-end-line="186" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3057" max-vertical-offset="6198">
+          <caret line="190" column="0" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#initialize#0;class#Controller#0" expanded="true" />
-            <element signature="e#3249#4117#0" expanded="true" />
-            <element signature="e#3876#3882#0" expanded="true" />
-            <element signature="e#4116#4117#0" expanded="true" />
-            <element signature="e#4160#4700#0" expanded="true" />
-            <element signature="e#4699#4700#0" expanded="true" />
-            <element signature="e#4829#5056#0" expanded="true" />
-            <element signature="e#5055#5056#0" expanded="true" />
-            <element signature="e#5376#5993#0" expanded="true" />
-            <element signature="e#5992#5993#0" expanded="true" />
-            <element signature="e#6752#6799#0" expanded="true" />
-            <element signature="e#7576#7583#0" expanded="true" />
+            <element signature="e#3277#4497#0" expanded="true" />
+            <element signature="e#4256#4262#0" expanded="true" />
+            <element signature="e#4496#4497#0" expanded="true" />
+            <element signature="e#4540#5136#0" expanded="true" />
+            <element signature="e#5135#5136#0" expanded="true" />
+            <element signature="e#5265#5492#0" expanded="true" />
+            <element signature="e#5491#5492#0" expanded="true" />
+            <element signature="e#5812#6429#0" expanded="true" />
+            <element signature="e#6428#6429#0" expanded="true" />
+            <element signature="e#6471#7428#0" expanded="true" />
+            <element signature="e#7188#7235#0" expanded="true" />
+            <element signature="e#7427#7428#0" expanded="true" />
+            <element signature="e#7468#8703#0" expanded="true" />
+            <element signature="e#8012#8019#0" expanded="true" />
+            <element signature="e#8702#8703#0" expanded="true" />
+            <element signature="e#8809#9759#0" expanded="true" />
+            <element signature="e#9758#9759#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Encrypt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="1693">
-          <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1761">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="method#shamirCrypt#0;class#Encrypt#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/secretshare-1.4.1-sources.jar!/com/tiemens/secretshare/engine/SecretShare.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5505" max-vertical-offset="11128">
-          <caret line="71" column="6" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="21893" max-vertical-offset="33857">
+          <caret line="3518" column="0" selection-start-line="3518" selection-start-column="0" selection-end-line="3518" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crypto/Shamir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50509167" vertical-offset="3016" max-vertical-offset="4741">
+          <caret line="192" column="47" selection-start-line="192" selection-start-column="47" selection-end-line="192" selection-end-column="47" />
           <folding>
-            <element signature="docComment;class#SecretShare#0" expanded="true" />
-            <element signature="e#1980#2033#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Shamir#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#2262#2312#0" expanded="true" />
+            <element signature="docComment;method#fileSplit#0;class#Shamir#0" expanded="true" />
+            <element signature="e#5359#5442#0" expanded="true" />
+            <element signature="e#5920#6050#0" expanded="true" />
+            <element signature="e#6454#6455#0" expanded="true" />
+            <element signature="e#8690#8728#0" expanded="true" />
+            <element signature="e#9622#9626#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/secretshare-1.4.1-sources.jar!/com/tiemens/secretshare/main/cli/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1931">
-          <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/secretshare-1.4.1-sources.jar!/com/tiemens/secretshare/main/cli/MainSplit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6269231" vertical-offset="3278" max-vertical-offset="7575">
-          <caret line="254" column="17" selection-start-line="254" selection-start-column="17" selection-end-line="254" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
