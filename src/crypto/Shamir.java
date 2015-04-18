@@ -16,6 +16,7 @@ import static java.util.Arrays.copyOfRange;
 
 /**
  * Created by hooda on 2/3/2015.
+ * Contains methods to encrypt files or strings.
  */
 public class Shamir {
 
@@ -35,7 +36,7 @@ public class Shamir {
             type = "-sN";
         }
 
-        ArrayList<String> parts = new ArrayList<>();
+        ArrayList<String> parts = new ArrayList<>(numPieces);
         String[] splitArgs = {"-n", Integer.toString(numPieces), "-k", Integer.toString(minPieces), type, inputString, "-primeNone"};
         MainSplit.SplitInput splitInput = MainSplit.SplitInput.parse(splitArgs);
         MainSplit.SplitOutput splitOutput = splitInput.output();
@@ -141,15 +142,21 @@ public class Shamir {
      * @return
      * @throws IOException
      */
-    public static ArrayList<FileOutputStream> fileSplit(String filePath, int numPieces, int minPieces) throws IOException {
+    public static ArrayList<String> fileSplit(String filePath, int numPieces, int minPieces) throws IOException {
 
         long startTime = System.currentTimeMillis();
+        File file = new File(filePath);
 
         //Create files to which encrypted pieces will b written.
+        ArrayList<String> splitNames = new ArrayList<>();
         ArrayList<FileOutputStream> splitFiles = new ArrayList<>(numPieces);
-        for (int i = 0; i < numPieces; i++) {
-            //TODO
-            splitFiles.add(i, new FileOutputStream("E://".concat("dummy.txt.".concat(Integer.toString(i + 1)))));
+        for (int i = 1; i <= numPieces; i++) {
+            String name = file.getName();
+            String suffix = ".".concat(Integer.toString(i));
+            File temp = File.createTempFile(name, suffix);
+            temp.deleteOnExit();
+            splitNames.add(temp.getAbsolutePath().toString());
+            splitFiles.add(new FileOutputStream(temp.getAbsolutePath().toString()));
         }
 
         //Get the file as a byte array.
@@ -168,6 +175,7 @@ public class Shamir {
             Shamir.encryptAndWrite(piece, numPieces, minPieces, splitFiles);
         }
 
+
         for (FileOutputStream f : splitFiles) {
             f.close();
         }
@@ -176,22 +184,22 @@ public class Shamir {
 
 
         //TESTING CODE. TODO remove
-        startTime = System.currentTimeMillis();
+//        startTime = System.currentTimeMillis();
+//
+//
+//        System.out.println("\n\ntesting the decryption\n\n");
+//        ArrayList<String> files = new ArrayList<>();
+//        files.add("E://dummy.txt.1");
+//        files.add("E://dummy.txt.2");
+//        files.add("E://dummy.txt.3");
+//        Shamir.fileCombine(files, minPieces);
+//
+//
+//        endTime = System.currentTimeMillis();
+//
+//        System.out.println("Decryption took " + (endTime - startTime) / 1000.0 + " seconds");
 
-
-        System.out.println("\n\ntesting the decryption\n\n");
-        ArrayList<String> files = new ArrayList<>();
-        files.add("E://dummy.txt.1");
-        files.add("E://dummy.txt.2");
-        files.add("E://dummy.txt.3");
-        Shamir.fileCombine(files, minPieces);
-
-
-        endTime = System.currentTimeMillis();
-
-        System.out.println("Decryption took " + (endTime - startTime) / 1000.0 + " seconds");
-
-        return splitFiles;
+        return splitNames;
     }
 
 
@@ -211,10 +219,10 @@ public class Shamir {
      * From each file, we then read the corresponding number of bytes n1 bytes from 1.. nN bytes from N, and feed them to shamir decryptor.
      * Finally, we convert the recovered number to byte array, and discard the first one - we inserted it ourselves.
      *
-     * @param piece
-     * @param numPieces
-     * @param minPieces
-     * @param files
+     * @param piece Byte array to be encrypted and written.
+     * @param numPieces n
+     * @param minPieces k
+     * @param files n FileOutPutStreams
      * @throws IOException
      */
     public static void encryptAndWrite(byte[] piece, int numPieces, int minPieces, ArrayList<FileOutputStream> files) throws IOException {
@@ -227,33 +235,6 @@ public class Shamir {
         BigInteger toAdd = (new BigInteger("2")).pow(piece.length * 8);
         pieceAsInt = pieceAsInt.add(toAdd);
         assert (pieceAsInt.toByteArray().length == piece.length + 1);
-
-//        System.out.println(pieceAsInt);
-
-//        //If integer is 0, the library can't handle it. We basically write two zero bytes to cover this fact.
-//        //Then, when decrypting, when we encounter such a case, we put 64/128/whatever zero bytes instead of trying to decrypt.
-//        if(pieceAsInt.signum() == 0){
-//            byte flag = (byte) piece.length;
-//            byte size = flag;
-//            for(FileOutputStream fileOutputStream : files){
-//                fileOutputStream.write(size);
-//                fileOutputStream.write(flag);
-//            }
-//        }
-
-        //Else we do shamir encryption.
-//        else{
-
-//            //We need zeroes, because bytes like 00000000 00000001 are interpreted to integer as 1.
-//            //We merrily encrypt this, decrypt and get 1, but when we convert that to bytes, we get 00000001. Notice that the zero byte has been lost.
-//            int zeroes = 0;
-//            for(int iter=0; iter<piece.length; iter++){
-//                if(piece[iter] == (byte)0)
-//                    zeroes++;
-//                else
-//                    break;
-//            }
-//            byte flag = (byte) zeroes;
 
         //Split the integer.
         ArrayList<String> pieceSplit = Shamir.shamirSplit(pieceAsInt.toString(), numPieces, minPieces, 1);
@@ -296,8 +277,9 @@ public class Shamir {
 
         ArrayList<ArrayList<BigInteger>> filesAsInts = new ArrayList<>();
         for (int i = 0; i < fileStreams.size(); i++) {
-            ArrayList<BigInteger> temp = new ArrayList<>();
+
             long size = fileStreams.get(i).getChannel().size();
+            ArrayList<BigInteger> temp = new ArrayList<BigInteger>((int) size/128);
             for (int j = 0; j < size; ) {
 
                 //Need to bitmask because java stores integers as two's complement.
@@ -349,7 +331,5 @@ public class Shamir {
         }
         System.out.println("");
     }
-
-
 }
 

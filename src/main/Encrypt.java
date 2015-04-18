@@ -31,9 +31,10 @@ public class Encrypt {
         UUID uuid = UUID.randomUUID();
         String subject = SECRETSAFE.concat(" ").concat(String.valueOf(uuid)).concat(" ").concat(tags);
 
-        Shamir.fileSplit(filePath, userData.n, userData.k);
-        if(0==0)
-            return 0;
+        ArrayList<String> splitNames = null;
+        if(filePath != null && filePath!=""){
+        splitNames = Shamir.fileSplit(filePath, userData.n, userData.k);
+        }
 
         //Simple XOR encryption.
         if (userData.mode == 0) {
@@ -46,13 +47,13 @@ public class Encrypt {
             }
 
             ArrayList<String> mails = new ArrayList<>(Arrays.asList(pieces));
-            return sendMails(mails, subject, userData);
+            return sendMails(mails, subject, splitNames, userData);
         }
 
         //Shamir encryption.
         else if (userData.mode == 1) {
             ArrayList<String> mails = Shamir.shamirSplit(message, userData.n, userData.k);
-            return sendMails(mails, subject, userData);
+            return sendMails(mails, subject, splitNames, userData);
         }
 
         //TODO Implement proper error codes
@@ -67,7 +68,7 @@ public class Encrypt {
         return 0;
     }
 
-    private static int sendMails(ArrayList<String> mails, String subject, UserData userData) {
+    private static int sendMails(ArrayList<String> mails, String subject, ArrayList<String> attachments, UserData userData) {
 
 
         for (int i = 0; i < mails.size(); i++) {
@@ -78,8 +79,9 @@ public class Encrypt {
 //                System.out.println(userData.fromPassword);
                 System.out.println(subject);
                 System.out.println(mails.get(i));
-
-
+                if(attachments!=null) {
+                    sendMail.addAttachment(attachments.get(i));
+                }
                 sendMail.send(userData.fromID, userData.fromPassword, userData.emails.get(i), userData.fromID, subject, mails.get(i));
                 System.out.println("sentmail to ".concat(userData.emails.get(i)));
             } catch (Exception e) {
